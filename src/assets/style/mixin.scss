@@ -1,0 +1,1202 @@
+@charset "utf-8";
+@import "./varibale.scss";
+// 字体颜色
+@mixin font_color(){
+	[data-theme="1"] & {
+		color:$font-color-zyxx;
+	}
+	[data-theme="2"] & {
+		color:$font-color-gd;
+	}
+	[data-theme="3"] & {
+		color:$font-color-fd;
+	}
+	[data-theme="4"] & {
+		color:$font-color-pw;
+	}
+	[data-theme="5"] & {
+		color:$font-color-pw;
+	}
+	[data-theme="6"] & {
+		color:$font-color-s;
+	}
+	[data-theme="7"] & {
+		color:$font-color-zyxx;
+	}
+	[data-theme="8"] & {
+		color:$font-color-fd;
+	}
+	[data-theme="9"] & {
+		color:$font-color-gd;
+	}
+}
+@mixin font_color1(){
+	[data-theme="1"] & {
+		color:$font-color-zyxx1;
+	}
+	[data-theme="2"] & {
+		color:$font-color-gd1;
+	}
+	[data-theme="3"] & {
+		color:$font-color-fd1;
+	}
+	[data-theme="4"] & {
+		color:$font-color-pw1;
+	}
+	[data-theme="5"] & {
+		color:$font-color-pw1;
+	}
+	[data-theme="6"] & {
+		color:$font-color-s1;
+	}
+	[data-theme="7"] & {
+		color:$font-color-zyxx1;
+	}
+	[data-theme="8"] & {
+		color:$font-color-fd1;
+	}
+	[data-theme="9"] & {
+		color:$font-color-gd1;
+	}
+}
+@mixin font_color2(){
+	[data-theme="1"] & {
+		color:$font-color-zyxx2;
+	}
+	[data-theme="2"] & {
+		color:$font-color-gd2;
+	}
+	[data-theme="3"] & {
+		color:$font-color-fd2;
+	}
+	[data-theme="4"] & {
+		color:$font-color-pw2;
+	}
+	[data-theme="5"] & {
+		color:$font-color-pw2;
+	}
+	[data-theme="6"] & {
+		color:$font-color-s2;
+	}
+	[data-theme="7"] & {
+		color:$font-color-zyxx2;
+	}
+	[data-theme="8"] & {
+		color:$font-color-fd2;
+	}
+	[data-theme="9"] & {
+		color:$font-color-gd2;
+	}
+}
+@mixin font_color3(){
+	[data-theme="1"] & {
+		color:$font-color-zyxx3;
+	}
+	[data-theme="2"] & {
+		color:$font-color-gd3;
+	}
+	[data-theme="3"] & {
+		color:$font-color-fd3;
+	}
+	[data-theme="4"] & {
+		color:$font-color-pw3;
+	}
+	[data-theme="5"] & {
+		color:$font-color-pw3;
+	}
+	[data-theme="6"] & {
+		color:$font-color-s3;
+	}
+	[data-theme="7"] & {
+		color:$font-color-zyxx3;
+	}
+	[data-theme="8"] & {
+		color:$font-color-fd3;
+	}
+	[data-theme="9"] & {
+		color:$font-color-gd3;
+	}
+}
+@mixin font_color4(){
+	[data-theme="1"] & {
+		color:$font-color-zyxx4;
+	}
+	[data-theme="2"] & {
+		color:$font-color-gd4;
+	}
+	[data-theme="3"] & {
+		color:$font-color-fd4;
+	}
+	[data-theme="4"] & {
+		color:$font-color-pw4;
+	}
+	[data-theme="5"] & {
+		color:$font-color-pw4;
+	}
+	[data-theme="6"] & {
+		color:$font-color-s4;
+	}
+	[data-theme="7"] & {
+		color:$font-color-zyxx4;
+	}
+	[data-theme="8"] & {
+		color:$font-color-fd4;
+	}
+	[data-theme="9"] & {
+		color:$font-color-gd4;
+	}
+}
+@mixin font_color5(){
+	[data-theme="1"] & {
+		color:$font-color-zyxx5;
+	}
+	[data-theme="2"] & {
+		color:$font-color-gd5;
+	}
+	[data-theme="3"] & {
+		color:$font-color-fd5;
+	}
+	[data-theme="4"] & {
+		color:$font-color-pw5;
+	}
+	[data-theme="5"] & {
+		color:$font-color-pw5;
+	}
+	[data-theme="6"] & {
+		color:$font-color-s5;
+	}
+	[data-theme="7"] & {
+		color:$font-color-zyxx5;
+	}
+	[data-theme="8"] & {
+		color:$font-color-fd5;
+	}
+	[data-theme="9"] & {
+		color:$font-color-gd5;
+	}
+}
+@mixin font_color6(){
+	[data-theme="1"] & {
+		color:$font-color-zyxx6;
+	}
+	[data-theme="2"] & {
+		color:$font-color-gd6;
+	}
+	[data-theme="3"] & {
+		color:$font-color-fd6;
+	}
+	[data-theme="4"] & {
+		color:$font-color-pw6;
+	}
+	[data-theme="5"] & {
+		color:$font-color-pw6;
+	}
+	[data-theme="6"] & {
+		color:$font-color-s6;
+	}
+	[data-theme="7"] & {
+		color:$font-color-zyxx6;
+	}
+	[data-theme="8"] & {
+		color:$font-color-fd6;
+	}
+	[data-theme="9"] & {
+		color:$font-color-gd6;
+	}
+}
+@mixin font_color7(){
+	[data-theme="1"] & {
+		color:$font-color-zyxx7;
+	}
+	[data-theme="2"] & {
+		color:$font-color-gd7;
+	}
+	[data-theme="3"] & {
+		color:$font-color-fd7;
+	}
+	[data-theme="4"] & {
+		color:$font-color-pw7;
+	}
+	[data-theme="5"] & {
+		color:$font-color-pw7;
+	}
+	[data-theme="6"] & {
+		color:$font-color-s7;
+	}
+	[data-theme="7"] & {
+		color:$font-color-zyxx7;
+	}
+	[data-theme="8"] & {
+		color:$font-color-fd7;
+	}
+	[data-theme="9"] & {
+		color:$font-color-gd7;
+	}
+}
+@mixin font_color8(){
+	[data-theme="1"] & {
+		color:$font-color-zyxx8;
+	}
+	[data-theme="2"] & {
+		color:$font-color-gd8;
+	}
+	[data-theme="3"] & {
+		color:$font-color-fd8;
+	}
+	[data-theme="4"] & {
+		color:$font-color-pw8;
+	}
+	[data-theme="5"] & {
+		color:$font-color-pw8;
+	}
+	[data-theme="6"] & {
+		color:$font-color-s8;
+	}
+	[data-theme="7"] & {
+		color:$font-color-zyxx8;
+	}
+	[data-theme="8"] & {
+		color:$font-color-fd8;
+	}
+	[data-theme="9"] & {
+		color:$font-color-gd8;
+	}
+}
+@mixin font_color9(){
+	[data-theme="1"] & {
+		color:$font-color-zyxx9;
+	}
+	[data-theme="2"] & {
+		color:$font-color-gd9;
+	}
+	[data-theme="3"] & {
+		color:$font-color-fd9;
+	}
+	[data-theme="4"] & {
+		color:$font-color-pw9;
+	}
+	[data-theme="5"] & {
+		color:$font-color-pw9;
+	}
+	[data-theme="6"] & {
+		color:$font-color-s9;
+	}
+	[data-theme="7"] & {
+		color:$font-color-zyxx9;
+	}
+	[data-theme="8"] & {
+		color:$font-color-fd9;
+	}
+	[data-theme="9"] & {
+		color:$font-color-gd9;
+	}
+}
+@mixin font_color10(){
+	[data-theme="1"] & {
+		color:$font-color-zyxx10;
+	}
+	[data-theme="2"] & {
+		color:$font-color-gd10;
+	}
+	[data-theme="3"] & {
+		color:$font-color-fd10;
+	}
+	[data-theme="4"] & {
+		color:$font-color-pw10;
+	}
+	[data-theme="5"] & {
+		color:$font-color-pw10;
+	}
+	[data-theme="6"] & {
+		color:$font-color-s10;
+	}
+	[data-theme="7"] & {
+		color:$font-color-zyxx10;
+	}
+	[data-theme="8"] & {
+		color:$font-color-fd10;
+	}
+	[data-theme="9"] & {
+		color:$font-color-gd10;
+	}
+}
+@mixin font_color11(){
+	[data-theme="1"] & {
+		color:$font-color-zyxx11;
+	}
+	[data-theme="2"] & {
+		color:$font-color-gd11;
+	}
+	[data-theme="3"] & {
+		color:$font-color-fd10;
+	}
+	[data-theme="4"] & {
+		color:$font-color-pw11;
+	}
+	[data-theme="5"] & {
+		color:$font-color-pw11;
+	}
+	[data-theme="6"] & {
+		color:$font-color-s11;
+	}
+	[data-theme="7"] & {
+		color:$font-color-zyxx11;
+	}
+	[data-theme="8"] & {
+		color:$font-color-fd10;
+	}
+	[data-theme="9"] & {
+		color:$font-color-gd11;
+	}
+}
+@mixin font_color12(){
+	[data-theme="1"] & {
+		color:$font-color-zyxx12;
+	}
+	[data-theme="2"] & {
+		color:$font-color-gd12;
+	}
+	[data-theme="3"] & {
+		color:$font-color-fd12;
+	}
+	[data-theme="4"] & {
+		color:$font-color-pw12;
+	}
+	[data-theme="5"] & {
+		color:$font-color-pw12;
+	}
+	[data-theme="6"] & {
+		color:$font-color-s12;
+	}
+	[data-theme="7"] & {
+		color:$font-color-zyxx12;
+	}
+	[data-theme="8"] & {
+		color:$font-color-fd12;
+	}
+	[data-theme="9"] & {
+		color:$font-color-gd12;
+	}
+}
+// 背景颜色
+@mixin bg_color(){
+	[data-theme="1"] & {
+		background-color:$background-color-zyxx;
+	}
+	[data-theme="2"] & {
+		background-color:$background-color-gd;
+	}
+	[data-theme="3"] & {
+		background-color:$background-color-fd;
+	}
+	[data-theme="4"] & {
+		background-color:$background-color-pw;
+	}
+	[data-theme="5"] & {
+		background-color:$background-color-pw;
+	}
+	[data-theme="6"] & {
+		background-color:$background-color-s;
+	}
+	[data-theme="7"] & {
+		background-color:$background-color-zyxx;
+	}
+	[data-theme="8"] & {
+		background-color:$background-color-fd;
+	}
+	[data-theme="9"] & {
+		background-color:$background-color-gd;
+	}
+}
+@mixin bg_color1(){
+	[data-theme="1"] & {
+		background-color:$background-color-zyxx1;
+	}
+	[data-theme="2"] & {
+		background-color:$background-color-gd1;
+	}
+	[data-theme="3"] & {
+		background-color:$background-color-fd1;
+	}
+	[data-theme="4"] & {
+		background-color:$background-color-pw1;
+	}
+	[data-theme="5"] & {
+		background-color:$background-color-pw1;
+	}
+	[data-theme="6"] & {
+		background-color:$background-color-s1;
+	}
+	[data-theme="7"] & {
+		background-color:$background-color-zyxx1;
+	}
+	[data-theme="8"] & {
+		background-color:$background-color-fd1;
+	}
+	[data-theme="9"] & {
+		background-color:$background-color-gd1
+	}
+}
+@mixin bg_color2(){
+	[data-theme="1"] & {
+		background-color:$background-color-zyxx2;
+	}
+	[data-theme="2"] & {
+		background-color:$background-color-gd2;
+	}
+	[data-theme="3"] & {
+		background-color:$background-color-fd2;
+	}
+	[data-theme="4"] & {
+		background-color:$background-color-pw2;
+	}
+	[data-theme="5"] & {
+		background-color:$background-color-pw2;
+	}
+	[data-theme="6"] & {
+		background-color:$background-color-s2;
+	}
+	[data-theme="7"] & {
+		background-color:$background-color-zyxx2;
+	}
+	[data-theme="8"] & {
+		background-color:$background-color-fd2;
+	}
+	[data-theme="9"] & {
+		background-color:$background-color-gd2;
+	}
+}
+@mixin bg_color3(){
+	[data-theme="1"] & {
+		background-color:$background-color-zyxx3;
+	}
+	[data-theme="2"] & {
+		background-color:$background-color-gd3;
+	}
+	[data-theme="3"] & {
+		background-color:$background-color-fd3;
+	}
+	[data-theme="4"] & {
+		background-color:$background-color-pw3;
+	}
+	[data-theme="5"] & {
+		background-color:$background-color-pw3;
+	}
+	[data-theme="6"] & {
+		background-color:$background-color-s3;
+	}
+	[data-theme="7"] & {
+		background-color:$background-color-zyxx3;
+	}
+	[data-theme="8"] & {
+		background-color:$background-color-fd3;
+	}
+	[data-theme="9"] & {
+		background-color:$background-color-gd3;
+	}
+}
+@mixin bg_color4(){
+	[data-theme="1"] & {
+		background-color:$background-color-zyxx4;
+	}
+	[data-theme="2"] & {
+		background-color:$background-color-gd4;
+	}
+	[data-theme="3"] & {
+		background-color:$background-color-fd4;
+	}
+	[data-theme="4"] & {
+		background-color:$background-color-pw4;
+	}
+	[data-theme="5"] & {
+		background-color:$background-color-pw4;
+	}
+	[data-theme="6"] & {
+		background-color:$background-color-s4;
+	}
+	[data-theme="7"] & {
+		background-color:$background-color-zyxx4;
+	}
+	[data-theme="8"] & {
+		background-color:$background-color-fd4;
+	}
+	[data-theme="9"] & {
+		background-color:$background-color-gd4;
+	}
+}
+@mixin bg_color5(){
+	[data-theme="1"] & {
+		background-color:$background-color-zyxx5;
+	}
+	[data-theme="2"] & {
+		background-color:$background-color-gd5;
+	}
+	[data-theme="3"] & {
+		background-color:$background-color-fd;
+	}
+	[data-theme="4"] & {
+		background-color:$background-color-pw5;
+	}
+	[data-theme="5"] & {
+		background-color:$background-color-pw5;
+	}
+	[data-theme="6"] & {
+		background-color:$background-color-s5;
+	}
+	[data-theme="7"] & {
+		background-color:$background-color-zyxx5;
+	}
+	[data-theme="8"] & {
+		background-color:$background-color-fd;
+	}
+	[data-theme="9"] & {
+		background-color:$background-color-gd5;
+	}
+}
+@mixin bg_color6(){
+	[data-theme="1"] & {
+		background-color:$background-color-zyxx6;
+	}
+	[data-theme="2"] & {
+		background-color:$background-color-gd6;
+	}
+	[data-theme="3"] & {
+		background-color:$background-color-fd6;
+	}
+	[data-theme="4"] & {
+		background-color:$background-color-pw6;
+	}
+	[data-theme="5"] & {
+		background-color:$background-color-pw6;
+	}
+	[data-theme="6"] & {
+		background-color:$background-color-s6;
+	}
+	[data-theme="7"] & {
+		background-color:$background-color-zyxx6;
+	}
+	[data-theme="8"] & {
+		background-color:$background-color-fd6;
+	}
+	[data-theme="9"] & {
+		background-color:$background-color-gd6;
+	}
+}
+@mixin bg_color7(){
+	[data-theme="1"] & {
+		background-color:$background-color-zyxx7;
+	}
+	[data-theme="2"] & {
+		background-color:$background-color-gd7;
+	}
+	[data-theme="3"] & {
+		background-color:$background-color-fd7;
+	}
+	[data-theme="4"] & {
+		background-color:$background-color-pw7;
+	}
+	[data-theme="5"] & {
+		background-color:$background-color-pw7;
+	}
+	[data-theme="6"] & {
+		background-color:$background-color-s7;
+	}
+	[data-theme="7"] & {
+		background-color:$background-color-zyxx7;
+	}
+	[data-theme="8"] & {
+		background-color:$background-color-fd7;
+	}
+	[data-theme="9"] & {
+		background-color:$background-color-gd7;
+	}
+}
+@mixin bg_color8(){
+	[data-theme="1"] & {
+		background-color:$background-color-zyxx8;
+	}
+	[data-theme="2"] & {
+		background-color:$background-color-gd8;
+	}
+	[data-theme="3"] & {
+		background-color:$background-color-fd8;
+	}
+	[data-theme="4"] & {
+		background-color:$background-color-pw8;
+	}
+	[data-theme="5"] & {
+		background-color:$background-color-pw8;
+	}
+	[data-theme="6"] & {
+		background-color:$background-color-s8;
+	}
+	[data-theme="7"] & {
+		background-color:$background-color-zyxx8;
+	}
+	[data-theme="8"] & {
+		background-color:$background-color-fd8;
+	}
+	[data-theme="9"] & {
+		background-color:$background-color-gd8;
+	}
+}
+@mixin bg_color9(){
+	[data-theme="1"] & {
+		background-color:$background-color-zyxx9;
+	}
+	[data-theme="2"] & {
+		background-color:$background-color-gd9;
+	}
+	[data-theme="3"] & {
+		background-color:$background-color-fd9;
+	}
+	[data-theme="4"] & {
+		background-color:$background-color-pw9;
+	}
+	[data-theme="5"] & {
+		background-color:$background-color-pw9;
+	}
+	[data-theme="6"] & {
+		background-color:$background-color-s9;
+	}
+	[data-theme="7"] & {
+		background-color:$background-color-zyxx9;
+	}
+	[data-theme="8"] & {
+		background-color:$background-color-fd9;
+	}
+	[data-theme="9"] & {
+		background-color:$background-color-gd9;
+	}
+}
+@mixin bg_color10(){
+	[data-theme="1"] & {
+		background-color:$background-color-zyxx10;
+	}
+	[data-theme="2"] & {
+		background-color:$background-color-gd10;
+	}
+	[data-theme="3"] & {
+		background-color:$background-color-fd10;
+	}
+	[data-theme="4"] & {
+		background-color:$background-color-pw10;
+	}
+	[data-theme="5"] & {
+		background-color:$background-color-pw10;
+	}
+	[data-theme="6"] & {
+		background-color:$background-color-s10;
+	}
+	[data-theme="7"] & {
+		background-color:$background-color-zyxx10;
+	}
+	[data-theme="8"] & {
+		background-color:$background-color-fd10;
+	}
+	[data-theme="9"] & {
+		background-color:$background-color-gd10;
+	}
+}
+@mixin bg_color11(){
+	[data-theme="1"] & {
+		background-color:$background-color-zyxx11;
+	}
+	[data-theme="2"] & {
+		background-color:$background-color-gd11;
+	}
+	[data-theme="3"] & {
+		background-color:$background-color-fd11;
+	}
+	[data-theme="4"] & {
+		background-color:$background-color-pw11;
+	}
+	[data-theme="5"] & {
+		background-color:$background-color-pw11;
+	}
+	[data-theme="6"] & {
+		background-color:$background-color-s11;
+	}
+	[data-theme="7"] & {
+		background-color:$background-color-zyxx11;
+	}
+	[data-theme="8"] & {
+		background-color:$background-color-fd11;
+	}
+	[data-theme="9"] & {
+		background-color:$background-color-gd11;
+	}
+}
+// 阴影颜色
+@mixin box_shodow($val){
+	[data-theme="1"] & {
+		box-shadow: $val $box-shodow;
+	}
+	[data-theme="2"] & {
+		box-shadow: $val $box-shodow-gd;
+	}
+	[data-theme="3"] & {
+		box-shadow: $val $box-shodow-fd;
+	}
+	[data-theme="4"] & {
+		box-shadow: $val $box-shodow-pw;
+	}
+	[data-theme="5"] & {
+		box-shadow: $val $box-shodow-pw;
+	}
+	[data-theme="6"] & {
+		box-shadow: $val $box-shodow-s;
+	}
+	[data-theme="7"] & {
+		box-shadow: $val $box-shodow;
+	}
+	[data-theme="8"] & {
+		box-shadow: $val $box-shodow-fd;
+	}
+	[data-theme="9"] & {
+		box-shadow: $val $box-shodow-gd;
+	}
+}
+@mixin _box_shodow($val1, $val2){
+	[data-theme="1"] & {
+		box-shadow: $val1, $val2 $box-shodow;
+	}
+	[data-theme="2"] & {
+		box-shadow: $val1, $val2 $box-shodow-gd;
+	}
+	[data-theme="3"] & {
+		box-shadow: $val1, $val2 $box-shodow-fd;
+	}
+	[data-theme="4"] & {
+		box-shadow: $val1, $val2 $box-shodow-pw;
+	}
+	[data-theme="5"] & {
+		box-shadow: $val1, $val2 $box-shodow-pw;
+	}
+	[data-theme="6"] & {
+		box-shadow: $val1, $val2 $box-shodow-s;
+	}
+	[data-theme="7"] & {
+		box-shadow: $val1, $val2 $box-shodow;
+	}
+	[data-theme="8"] & {
+		box-shadow: $val1, $val2 $box-shodow-fd;
+	}
+	[data-theme="9"] & {
+		box-shadow: $val1, $val2 $box-shodow-gd;
+	}
+}
+@mixin box_shodow1($val){
+	[data-theme="1"] & {
+		box-shadow: $val $box-shodow1;
+	}
+	[data-theme="2"] & {
+		box-shadow: $val $box-shodow-gd1;
+	}
+	[data-theme="3"] & {
+		box-shadow: $val $box-shodow-fd1;
+	}
+	[data-theme="4"] & {
+		box-shadow: $val $box-shodow-pw1;
+	}
+	[data-theme="5"] & {
+		box-shadow: $val $box-shodow-pw1;
+	}
+	[data-theme="6"] & {
+		box-shadow: $val $box-shodow-s1;
+	}
+	[data-theme="7"] & {
+		box-shadow: $val $box-shodow1;
+	}
+	[data-theme="8"] & {
+		box-shadow: $val $box-shodow-fd1;
+	}
+	[data-theme="9"] & {
+		box-shadow: $val $box-shodow-gd1;
+	}
+}
+@mixin box_shodow2($val){
+	[data-theme="1"] & {
+		box-shadow: $val $box-shodow2;
+	}
+	[data-theme="2"] & {
+		box-shadow: $val $box-shodow-gd2;
+	}
+	[data-theme="3"] & {
+		box-shadow: $val $box-shodow-fd2;
+	}
+	[data-theme="4"] & {
+		box-shadow: $val $box-shodow-pw2;
+	}
+	[data-theme="5"] & {
+		box-shadow: $val $box-shodow-pw2;
+	}
+	[data-theme="6"] & {
+		box-shadow: $val $box-shodow-s2;
+	}
+	[data-theme="7"] & {
+		box-shadow: $val $box-shodow2;
+	}
+	[data-theme="8"] & {
+		box-shadow: $val $box-shodow-fd2;
+	}
+	[data-theme="9"] & {
+		box-shadow: $val $box-shodow-gd2;
+	}
+}
+@mixin box_shodow3($val){
+	[data-theme="1"] & {
+		box-shadow: $val $box-shodow3;
+	}
+	[data-theme="2"] & {
+		box-shadow: $val $box-shodow-gd3;
+	}
+	[data-theme="3"] & {
+		box-shadow: $val $box-shodow-fd3;
+	}
+	[data-theme="4"] & {
+		box-shadow: $val $box-shodow-pw3;
+	}
+	[data-theme="5"] & {
+		box-shadow: $val $box-shodow-pw3;
+	}
+	[data-theme="6"] & {
+		box-shadow: $val $box-shodow-s3;
+	}
+	[data-theme="7"] & {
+		box-shadow: $val $box-shodow3;
+	}
+	[data-theme="8"] & {
+		box-shadow: $val $box-shodow-fd3;
+	}
+	[data-theme="9"] & {
+		box-shadow: $val $box-shodow-gd3;
+	}
+}
+@mixin box_shodow4($val){
+	[data-theme="1"] & {
+		box-shadow: $val $box-shodow4;
+	}
+	[data-theme="2"] & {
+		box-shadow: $val $box-shodow-gd4;
+	}
+	[data-theme="3"] & {
+		box-shadow: $val $box-shodow-fd4;
+	}
+	[data-theme="4"] & {
+		box-shadow: $val $box-shodow-pw4;
+	}
+	[data-theme="5"] & {
+		box-shadow: $val $box-shodow-pw4;
+	}
+	[data-theme="6"] & {
+		box-shadow: $val $box-shodow-s4;
+	}
+	[data-theme="7"] & {
+		box-shadow: $val $box-shodow4;
+	}
+	[data-theme="8"] & {
+		box-shadow: $val $box-shodow-fd4;
+	}
+	[data-theme="9"] & {
+		box-shadow: $val $box-shodow-gd4;
+	}
+}
+
+//  边框
+@mixin border($val){
+	[data-theme="1"] & {
+		border: $val $border;
+	}
+	[data-theme="2"] & {
+		border: $val $border-gd;
+	}
+	[data-theme="3"] & {
+		border: $val $border-fd;
+	}
+	[data-theme="4"] & {
+		border: $val $border-pw;
+	}
+	[data-theme="5"] & {
+		border: $val $border-pw;
+	}
+	[data-theme="6"] & {
+		border: $val $border-s;
+	}
+	[data-theme="7"] & {
+		border: $val $border;
+	}
+	[data-theme="8"] & {
+		border: $val $border-fd;
+	}
+	[data-theme="9"] & {
+		border: $val $border-gd;
+	}
+}
+@mixin border1($val){
+	[data-theme="1"] & {
+		border: $val $border1;
+	}
+	[data-theme="2"] & {
+		border: $val $border-gd1;
+	}
+	[data-theme="3"] & {
+		border: $val $border-fd1;
+	}
+	[data-theme="4"] & {
+		border: $val $border-pw1;
+	}
+	[data-theme="5"] & {
+		border: $val $border-pw1;
+	}
+	[data-theme="6"] & {
+		border: $val $border-s1;
+	}
+	[data-theme="7"] & {
+		border: $val $border1;
+	}
+	[data-theme="8"] & {
+		border: $val $border-fd1;
+	}
+	[data-theme="9"] & {
+		border: $val $border-gd1;
+	}
+}
+@mixin border2($val){
+	[data-theme="1"] & {
+		border: $val $border2;
+	}
+	[data-theme="2"] & {
+		border: $val $border-gd2;
+	}
+	[data-theme="3"] & {
+		border: $val $border-fd2;
+	}
+	[data-theme="4"] & {
+		border: $val $border-pw2;
+	}
+	[data-theme="5"] & {
+		border: $val $border-pw2;
+	}
+	[data-theme="6"] & {
+		border: $val $border-s2;
+	}
+	[data-theme="7"] & {
+		border: $val $border2;
+	}
+	[data-theme="8"] & {
+		border: $val $border-fd2;
+	}
+	[data-theme="9"] & {
+		border: $val $border-gd2;
+	}
+}
+@mixin border3($val){
+	[data-theme="1"] & {
+		border: $val $border3;
+	}
+	[data-theme="2"] & {
+		border: $val $border-gd3;
+	}
+	[data-theme="3"] & {
+		border: $val $border-fd3;
+	}
+	[data-theme="4"] & {
+		border: $val $border-pw3;
+	}
+	[data-theme="5"] & {
+		border: $val $border-pw3;
+	}
+	[data-theme="6"] & {
+		border: $val $border-s3;
+	}
+	[data-theme="7"] & {
+		border: $val $border3;
+	}
+	[data-theme="8"] & {
+		border: $val $border-fd3;
+	}
+	[data-theme="9"] & {
+		border: $val $border-gd3;
+	}
+}
+@mixin border4($val){
+	[data-theme="1"] & {
+		border: $val $border4;
+	}
+	[data-theme="2"] & {
+		border: $val $border-gd4;
+	}
+	[data-theme="3"] & {
+		border: $val $border-fd4;
+	}
+	[data-theme="4"] & {
+		border: $val $border-pw4;
+	}
+	[data-theme="5"] & {
+		border: $val $border-pw4;
+	}
+	[data-theme="6"] & {
+		border: $val $border-s4;
+	}
+	[data-theme="7"] & {
+		border: $val $border4;
+	}
+	[data-theme="8"] & {
+		border: $val $border-fd4;
+	}
+	[data-theme="9"] & {
+		border: $val $border-gd4;
+	}
+}
+
+// 边框颜色
+
+@mixin border_color(){
+	[data-theme="1"] & {
+		border-color: $border-color;
+	}
+	[data-theme="2"] & {
+		border-color: $border-color-gd;
+	}
+	[data-theme="3"] & {
+		border-color: $border-color-fd;
+	}
+	[data-theme="4"] & {
+		border-color: $border-color-pw;
+	}
+	[data-theme="5"] & {
+		border-color: $border-color-pw;
+	}
+	[data-theme="6"] & {
+		border-color: $border-color-s;
+	}
+	[data-theme="7"] & {
+		border-color: $border-color;
+	}
+	[data-theme="8"] & {
+		border-color: $border-color-fd;
+	}
+	[data-theme="9"] & {
+		border-color: $border-color-gd;
+	}
+}
+@mixin border_color1(){
+	[data-theme="1"] & {
+		border-color: $border-color1;
+	}
+	[data-theme="2"] & {
+		border-color: $border-color-gd1;
+	}
+	[data-theme="3"] & {
+		border-color: $border-color-fd1;
+	}
+	[data-theme="4"] & {
+		border-color: $border-color-pw1;
+	}
+	[data-theme="5"] & {
+		border-color: $border-color-pw1;
+	}
+	[data-theme="6"] & {
+		border-color: $border-color-s1;
+	}
+	[data-theme="7"] & {
+		border-color: $border-color1;
+	}
+	[data-theme="8"] & {
+		border-color: $border-color-fd1;
+	}
+	[data-theme="9"] & {
+		border-color: $border-color-gd1;
+	}
+}
+@mixin border_color2(){
+	[data-theme="1"] & {
+		border-color: $border-color2;
+	}
+	[data-theme="2"] & {
+		border-color: $border-color-gd2;
+	}
+	[data-theme="3"] & {
+		border-color: $border-color-fd2;
+	}
+	[data-theme="4"] & {
+		border-color: $border-color-pw2;
+	}
+	[data-theme="5"] & {
+		border-color: $border-color-pw2;
+	}
+	[data-theme="6"] & {
+		border-color: $border-color-s2;
+	}
+	[data-theme="7"] & {
+		border-color: $border-color2;
+	}
+	[data-theme="8"] & {
+		border-color: $border-color-fd2;
+	}
+	[data-theme="9"] & {
+		border-color: $border-color-gd2;
+	}
+}
+@mixin border_color3(){
+	[data-theme="1"] & {
+		border-color: $border-color3;
+	}
+	[data-theme="2"] & {
+		border-color: $border-color-gd3;
+	}
+	[data-theme="3"] & {
+		border-color: $border-color-fd3;
+	}
+	[data-theme="4"] & {
+		border-color: $border-color-pw3;
+	}
+	[data-theme="5"] & {
+		border-color: $border-color-pw3;
+	}
+	[data-theme="6"] & {
+		border-color: $border-color-s3;
+	}
+	[data-theme="7"] & {
+		border-color: $border-color3;
+	}
+	[data-theme="8"] & {
+		border-color: $border-color-fd3;
+	}
+	[data-theme="9"] & {
+		border-color: $border-color-gd3;
+	}
+}
+
+// 左边款颜色
+
+@mixin border_left($val){
+	[data-theme="1"] & {
+		border-left: $val $border-left;
+	}
+	[data-theme="2"] & {
+		border-left: $val $border-left-gd;
+	}
+	[data-theme="3"] & {
+		border-left: $val $border-left-fd;
+	}
+	[data-theme="4"] & {
+		border-left: $val $border-left-pw;
+	}
+	[data-theme="5"] & {
+		border-left: $val $border-left-pw;
+	}
+	[data-theme="6"] & {
+		border-left: $val $border-left-s;
+	}
+	[data-theme="7"] & {
+		border-left: $val $border-left;
+	}
+	[data-theme="8"] & {
+		border-left: $val $border-left-fd;
+	}
+	[data-theme="9"] & {
+		border-left: $val $border-left-gd;
+	}
+}
